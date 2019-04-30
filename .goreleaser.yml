@@ -13,8 +13,10 @@ builds:
       - windows
       - linux
     goarch:
+      - arm64
       - amd64
       - 386
+      - arm
     env:
       - CGO_ENABLED=0
     main: ./cmd/golangci-lint/
