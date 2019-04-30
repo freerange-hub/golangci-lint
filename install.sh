@@ -187,7 +187,7 @@ uname_arch() {
     aarch64) arch="arm64" ;;
     armv5*) arch="armv5" ;;
     armv6*) arch="armv6" ;;
-    armv7*) arch="armv7" ;;
+    armv7*) arch="amd64" ;;
   esac
   echo ${arch}
 }
