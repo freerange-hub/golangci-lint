@@ -17,6 +17,9 @@ builds:
       - amd64
       - 386
       - arm
+    goarm:
+      - 6
+      - 7
     env:
       - CGO_ENABLED=0
     main: ./cmd/golangci-lint/
